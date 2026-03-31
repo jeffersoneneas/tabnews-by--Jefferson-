@@ -1,0 +1,16 @@
+{
+  "name": "tabnews-by--jefferson-",
+  "version": "1.0.0",
+  "description": "Fullstack TabNews clone built from scratch, focusing on scalability, clean architecture, and best practices",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
