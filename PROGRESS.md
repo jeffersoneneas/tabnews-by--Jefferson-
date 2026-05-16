@@ -17,6 +17,10 @@
 - [x] Criação da página inicial em pages/index.js
 - [x] Execução do servidor de desenvolvimento Next.js
 
+### Cursos
+
+- [x] curso.dev — Aula 7 concluída (16/05/2026)
+
 ---
 
 ## 🛠️ Comandos Utilizados
@@ -37,5 +41,3 @@ npm run dev                     # Iniciar servidor via script dev do package.jso
 ```
 
 ---
-
-_Última atualização: 30/03/2026_
