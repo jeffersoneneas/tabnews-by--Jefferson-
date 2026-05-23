@@ -25,6 +25,11 @@
 
 ---
 
+### Registro de Atividades
+
+- 23/05/2026 — commit `7ddb524`: adiciona extenção Prettier, auto save, format on save e scripts `lint:check` e `lint:fix` (autor: Jefferson Eneas da Silva)
+
+
 ## 🛠️ Comandos Utilizados
 
 ```bash
