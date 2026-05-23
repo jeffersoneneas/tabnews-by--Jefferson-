@@ -14,6 +14,8 @@
 - [x] Criação e configuração do arquivo .editorconfig
 - [x] Inicialização do projeto npm
 - [x] Instalação de dependências (Next.js, React, React DOM)
+- [x] Adição do Prettier, configuração de auto save e format on save
+- [x] Configuração de scripts `lint:check` e `lint:fix`
 - [x] Configuração do script dev no package.json
 - [x] Criação da página inicial em pages/index.js
 - [x] Execução do servidor de desenvolvimento Next.js
@@ -26,9 +28,6 @@
 ---
 
 ### Registro de Atividades
-
-- 23/05/2026 — commit `7ddb524`: adiciona extenção Prettier, auto save, format on save e scripts `lint:check` e `lint:fix` (autor: Jefferson Eneas da Silva)
-
 
 ## 🛠️ Comandos Utilizados
 
