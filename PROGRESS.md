@@ -16,6 +16,8 @@
 - [x] Instalação de dependências (Next.js, React, React DOM)
 - [x] Adição do Prettier, configuração de auto save e format on save
 - [x] Configuração de scripts `lint:check` e `lint:fix`
+- [x] Instalação do Jest na versão ^29.6.2
+- [x] Configuração dos scripts `test` e `test:watch` do Jest
 - [x] Configuração do script dev no package.json
 - [x] Criação da página inicial em pages/index.js
 - [x] Execução do servidor de desenvolvimento Next.js
@@ -24,6 +26,27 @@
 
 - [x] curso.dev — Aula 7 concluída (16/05/2026)
 - [ ] curso.dev — Aula 10 em andamento
+
+---
+
+### Arquitetura do Projeto
+
+```text
+root/
+├── pages/
+│   └── index.js
+├── models/
+│   ├── users.js
+│   ├── content.js
+│   └── password.js
+├── infra/
+│   ├── database.js
+│   ├── migrations/
+│   └── provisioning/
+│       ├── staging/
+│       └── production/
+└── tests/
+```
 
 ---
 
@@ -42,6 +65,9 @@ npm init                        # Inicializar projeto npm
 npm install next@13.1.6         # Instalar Next.js versão 13.1.6
 npm install react@18.2.0        # Instalar React versão 18.2.0
 npm install react-dom@18.2.0    # Instalar React DOM versão 18.2.0
+npm install -D jest@29.6.2      # Instalar Jest como dependência de desenvolvimento
+npm run test                    # Rodar os testes com Jest
+npm run test:watch              # Rodar os testes em modo watch
 next dev                        # Iniciar servidor de desenvolvimento Next.js
 npm run dev                     # Iniciar servidor via script dev do package.json
 ```
