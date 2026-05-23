@@ -11,6 +11,7 @@
 - [x] Verificação de versões disponíveis
 - [x] Definição da versão padrão do Node com nvm alias
 - [x] Criação do arquivo .nvmrc com lts/hydrogen
+- [x] Criação e configuração do arquivo .editorconfig
 - [x] Inicialização do projeto npm
 - [x] Instalação de dependências (Next.js, React, React DOM)
 - [x] Configuração do script dev no package.json
@@ -20,6 +21,7 @@
 ### Cursos
 
 - [x] curso.dev — Aula 7 concluída (16/05/2026)
+- [ ] curso.dev — Aula 10 em andamento
 
 ---
 
