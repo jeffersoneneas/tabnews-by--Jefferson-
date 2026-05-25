@@ -71,6 +71,9 @@ npm run test:watch              # Rodar os testes em modo watch
 next dev                        # Iniciar servidor de desenvolvimento Next.js
 npm run dev                     # Iniciar servidor via script dev do package.json
 docker compose up               # Sobe a imagem docker
+sudo apt update                 # Atualizar lista de pacotes do sistema
+sudo apt install postgresql-client # Instalar o cliente do PostgreSQL
+psql --host=localhost --username=postgres --port=5432 # Conectar ao PostgreSQL local
 ```
 
 ---
