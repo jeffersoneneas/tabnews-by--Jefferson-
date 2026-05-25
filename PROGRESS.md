@@ -70,6 +70,11 @@ npm run test                    # Rodar os testes com Jest
 npm run test:watch              # Rodar os testes em modo watch
 next dev                        # Iniciar servidor de desenvolvimento Next.js
 npm run dev                     # Iniciar servidor via script dev do package.json
+docker compose up               # Sobe a imagem docker
 ```
 
 ---
+
+## links uteis
+
+https://hub.docker.com/_/postgres/
