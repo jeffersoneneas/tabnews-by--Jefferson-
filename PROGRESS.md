@@ -73,6 +73,7 @@ npm run dev                     # Iniciar servidor via script dev do package.jso
 docker compose -f infra/compose.yaml up -d # Sobe a imagem docker em background usando o YAML em infra/
 docker compose down              # Derruba os containers do ambiente ao sair
 npm i pg@8.11.3                  # Instalar o pacote pg para acesso ao PostgreSQL
+git mv .env .env.development     # Renomear arquivo de ambiente para desenvolvimento
 sudo apt update                 # Atualizar lista de pacotes do sistema
 sudo apt install postgresql-client # Instalar o cliente do PostgreSQL
 psql --host=localhost --username=postgres --port=5432 # Conectar ao PostgreSQL local
