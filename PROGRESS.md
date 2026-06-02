@@ -21,6 +21,7 @@
 - [x] Configuração do script dev no package.json
 - [x] Criação da página inicial em pages/index.js
 - [x] Execução do servidor de desenvolvimento Next.js
+- [x] Instalação da imagem Docker do PostgreSQL `postgres:16.14-alpine3.23`
 
 ### Cursos
 
@@ -70,6 +71,7 @@ npm run test                    # Rodar os testes com Jest
 npm run test:watch              # Rodar os testes em modo watch
 next dev                        # Iniciar servidor de desenvolvimento Next.js
 npm run dev                     # Iniciar servidor via script dev do package.json
+docker pull postgres:16.14-alpine3.23 # Baixar a imagem do PostgreSQL usada no projeto
 docker compose -f infra/compose.yaml up -d # Sobe a imagem docker em background usando o YAML em infra/
 docker compose down              # Derruba os containers do ambiente ao sair
 npm i pg@8.11.3                  # Instalar o pacote pg para acesso ao PostgreSQL
