@@ -81,6 +81,7 @@ sudo apt update                 # Atualizar lista de pacotes do sistema
 sudo apt install postgresql-client # Instalar o cliente do PostgreSQL
 psql --host=localhost --username=postgres --port=5432 # Conectar ao PostgreSQL local
 \q                              # Sair do psql
+npm install node-pg-migrations@6.2.2 # Instalar o CLI de migrações (node-pg-migrations)
 ```
 
 ---
